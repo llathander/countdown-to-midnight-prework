@@ -1,8 +1,9 @@
 #write your code here
 x =10
-def countdown
+def countdown(x)
   while x > 1
-  puts "#{x} is less than 24"
+  puts "#{x} SECONDS!"
 x -= 1
   end
+  return "HAPPY NEW YEAR!"
 end
